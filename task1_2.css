@@ -1,0 +1,79 @@
+/*通用样式*/
+body {
+	background-color: #eee;
+	padding: 0px;
+	margin: 0px;
+	font-family: Microsoft Yahei;
+}
+li {
+    list-style: none;
+}
+a:visited {color:#00FF00;} /* 已被访问的链接 */
+a:hover {color:#FF00FF;}   /* 鼠标指针移动到链接上 */
+a:active {color:#0000FF;}  /* 正在被点击的链接 */
+/*定义每段落背景颜色，边距等*/
+#first,#sec,#thr,#four,.five,.pic {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.72);
+    border: 1px solid #999;
+}
+
+.pic li{
+	padding: 0px 10px 10px 10px;
+    width: 170px;
+    height: auto;
+    border: 1px solid #999;
+    text-align: center;
+    margin: 10px; 
+}
+#four li{
+	list-style-type: decimal;
+	font-weight: bold;
+	line-height:1.5em;
+}
+.biaotou {
+     color: white;
+     text-align: left;
+     background-color: black;"
+}
+.five form {
+	font-size: 15px;
+	color: #333;
+	line-height: 34px;
+}
+#form-left {
+    float: left;
+    width: 400px;
+    height: 320px;
+    margin-right: 14px;
+    text-align: right;
+}
+#form-right .form-warning {
+	color: #aaa;
+    font-size: 14px;
+}
+#form-right .form-text {
+	margin-top: 8px;
+}
+.form-submit {
+	width: 100%;
+	height: 40px;
+	background-color: #3553cf;
+	color: #fff;
+	border-radius: 12px;
+	font-weight: 900px;
+}
+.form-submit:hover {
+	background-color: #0028cd;
+}
+.footer {
+	height: 70px;
+	background-color: #000;
+	min-width: 1200px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 64px;
+}
